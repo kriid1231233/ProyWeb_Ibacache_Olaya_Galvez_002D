@@ -4,22 +4,18 @@ body{
     padding: 0;
     background-color: black;
     position: relative;
-   
-    
 }
 
-
-a {
+a{
     text-decoration: none;
     color: inherit;
     cursor: pointer;
     font-size: larger;
 }
-.a1{
-    text-align: right;
-    
-}
 
+.a1{
+    text-align: right;    
+}
 
 footer { /* PIES */
     background-color: #F44A36;
@@ -28,16 +24,16 @@ footer { /* PIES */
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
-    
+    width: 100%;    
 }
+
 .separador{ /* RAYA BLANCA */
     border: 0;
     height: 0.5px;
     background-color: white;
     margin: 5px 0;
-
 }
+
 .titulos1{
     text-align: center;
     color: white;   
@@ -52,19 +48,14 @@ footer { /* PIES */
     text-align: center;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 250px;
-    grid-gap: 20px;
-    
-   
+    grid-gap: 20px;   
 }
 
 .container-img .titulo2{
-
     text-align: center; 
     color: white;
-    
-     
-
 }
+
 a, a:hover{ /* QUITAR COLOR Y OTRA COSA */
     text-decoration: none;
     color: inherit;

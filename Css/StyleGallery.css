@@ -14,15 +14,18 @@ a{
 }
 
 
-footer{
+footer{ /* COPY */
     background-color: #F44A36;
     color: #fff;
-    padding: 10px;
     text-align: center;
     position: static;
     bottom: 0;
     width: 100%;
-    
+}
+
+footer p{
+    margin-top: 6px;
+    margin-bottom: 2px;
 }
 .separador{ /* RAYA BLANCA */
     border: 0;

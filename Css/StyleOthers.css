@@ -10,9 +10,9 @@ footer{ /* COPY */
     background-color: #F44A36;
     color: #fff;
     text-align: center;
-    width: 100%;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 footer p{
     margin-top: 6px;
@@ -59,28 +59,13 @@ section1{ /* NOMBRE Y BIENVENIDA */
     margin: 5px 0;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    width: 15px;
-    height: 30px;
-    font-size: 1rem;
-}
-#carruselInBotones {
-    max-width: 500px;
-    margin: auto;
-}
 a, a:hover{ /* QUITAR COLOR Y OTRA COSA */
     text-decoration: none;
     color: inherit;
     cursor: pointer;
     font-size: larger;
 }
-
-.carousel-item img {
-    max-height: 400px;
-    width: auto;
-    margin: auto;
-}
-
-.navbar-nav .ml-auto {
-    margin-right: auto !important;
+#lista-sismos{
+    color:#fff;
+    list-style: none;
 }
