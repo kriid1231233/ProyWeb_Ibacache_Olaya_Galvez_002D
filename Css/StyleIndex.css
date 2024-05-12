@@ -1,0 +1,64 @@
+body{ /* CUERPO */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    position: relative;
+}
+
+footer{ /* COPY */
+    background-color: #F44A36;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    margin-top: 20px;
+}
+
+section{ /* INFORMACION EMPRESA */
+    color:#fff;
+    text-align: center;
+    font-size: larger;
+    width: 50%;
+}
+
+.separador{ /* RAYA BLANCA */
+    border: 0;
+    height: 0.5px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.separador3{ /* ENTRE EL MENU Y EL CARRUSEL */
+    border: 0;
+    height: 0.5px;
+    background-color: none;
+    margin: 20px 0;
+}
+
+.separador2{ /* ENTRE EL CARRUSEL Y TEXTO */
+    border: 0;
+    height: 0.5px;
+    background-color: none;
+    margin: 20px 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+}
+#carruselInBotones {
+    max-width: 600px;
+    margin: auto;
+}
+a, a:hover{ /* QUITAR COLOR Y OTRA COSA */
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: larger;
+}
