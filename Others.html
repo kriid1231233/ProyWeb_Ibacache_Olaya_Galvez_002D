@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill Master |  Contactanos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/StyleOthers.css">
+    <link rel="icon" href="img/LogoGrillMaster/logo.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-black text-white navbar-white">
+        <img src="img/LogoGrillMaster/logoentero.png" alt="Logo Empresa" width="80">
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav.nav-item">
+                <a class="nav-link" href="Index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">QUIENES SOMOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PhotoGallery.html">GALERIA DE FOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">CONTACTANOS</a>
+          </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">INICIA SESION O REGISTRATE</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <hr class="separador">
+    <hr class="separador3">
+    <div class="ListaSismos">
+      <p class="t_sismos"> Lista de Sismos </p>
+        <ul id="lista-sismos">
+        </ul>
+        <button class= "boton" type="button" id="btn-sismos">Registro de sismos recientes en chile</button>
+    </div>
+    <div class="inpokemon">
+    <h1>Información de Pokémon</h1>
+    <label for="pokemonIdInput">ID del Pokémon:</label>
+    <input type="number" id="pokemonIdInput" min="1" max="807"> <!-- Máximo ID disponible en PokeAPI -->
+    <button onclick="buscarPokemon()">Buscar</button>
+    <div id="pokemon-info"></div>
+    </div>
+    <div class="reloj">
+      <p id="hora">La hora en santiago es <span id="tiempo">00 : 00 : 00</span></p>
+    </div>
+    <footer>
+        <p>Jean, Gabriel y Ian, &copy; Derechos de autor</p> <!-- COPYRIGHT -->
+        <a href="Img/Socials/instagram.png"><!-- LOGO INSTAGRAM -->
+            <img src="img/Socials/instagram.png" alt="Instagram" width="20">
+        </a>
+        <a href="Img/Socials/facebook.png"><!-- LOGO FACEBOOK -->
+            <img src="img/Socials/facebook.png" alt="facebook" width="20">
+        </a>
+    </footer>
+    <script src="jss/script.js"></script>
+    <script src="jss/reloj.js"></script>
+    <script src="Jss/poke.js"></script>
+</body>
+</html>
