@@ -4,6 +4,7 @@ body{ /* CUERPO */
     padding: 0;
     background-color: black;
     position: relative;
+    text-align: center;
 }
 
 footer{ /* COPY */
@@ -66,6 +67,23 @@ a, a:hover{ /* QUITAR COLOR Y OTRA COSA */
     font-size: larger;
 }
 #lista-sismos{
-    color:#fff;
-    list-style: none;
+    color:#000000;
+    text-justify: distribute;
+    list-style: none;   
+    background-color: #FAB451;  
+    padding: 1%;  
+}
+.reloj{
+    color: #000000;
+    margin-top: 10px;
+    background-color: #FAB451;
+    
+}
+.boton{  
+    background-color: #FAB451;
+}
+.t_sismos{
+    text-align: center;
+    background-color: #FAB451;
+    
 }
