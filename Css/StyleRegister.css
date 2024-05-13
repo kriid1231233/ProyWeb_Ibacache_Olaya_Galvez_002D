@@ -129,3 +129,30 @@ button:hover {
     font-size: medium;
     color: #F44A36;
 }
+/* Estilos para el campo de género */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    appearance: none; /* Oculta la apariencia predeterminada del select */
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+    cursor: pointer;
+  }
+  
+  select::-ms-expand {
+    display: none; /* Oculta la flecha del select en Internet Explorer */
+  }
+
+  .form-check-input {
+    margin-top: 0.5rem;
+  }
+  
+  .form-check-label {
+    margin-left: 0.5rem;
+  }

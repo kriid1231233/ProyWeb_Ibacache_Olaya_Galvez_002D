@@ -41,6 +41,7 @@ $(document).ready(function(){
       }
   
       // Si todos los campos están completos, el formulario se enviará
+      window.location.href = 'index.html';
     });
-  });
+});
   
