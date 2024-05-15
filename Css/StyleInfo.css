@@ -17,14 +17,17 @@ a{
     text-align: right;    
 }
 
-footer { /* PIES */
+footer{ /* COPY */
     background-color: #F44A36;
     color: #fff;
-    padding: 10px;
     text-align: center;
+    width: 100%;
     position: fixed;
     bottom: 0;
-    width: 100%;    
+}
+footer p{
+    margin-top: 6px;
+    margin-bottom: 2px;
 }
 
 .separador{ /* RAYA BLANCA */
@@ -63,4 +66,16 @@ a, a:hover{ /* QUITAR COLOR Y OTRA COSA */
     font-size: larger;
 }
 
-
+.regalo{
+    color: #fff;
+    text-align: center;
+    font-size: medium;
+}
+.link{
+    color:#FA6E51;
+    font-size: medium;
+}
+.link:hover{
+    font-size: medium;
+    color: #F44A36;
+}
