@@ -4,18 +4,14 @@ body{ /* CUERPO */
     padding: 0;
     background-color: black;
     position: relative;
-    text-align: center;
 }
 
 footer{ /* COPY */
     background-color: #F44A36;
     color: #fff;
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
-
 footer p{
     margin-top: 6px;
     margin-bottom: 2px;
@@ -35,6 +31,18 @@ footer p{
     margin: 20px 0;
 }
 
+.separador2{ /* ENTRE EL CARRUSEL Y TEXTO */
+    border: 0;
+    height: 0.5px;
+    background-color: none;
+    margin: 20px 0;
+}
+.separadorX{ /* ENTRE EL CARRUSEL Y TEXTO */
+    border: 0;
+    height: 0.5px;
+    background-color: none;
+    margin: 5px 0;
+}
 a, a:hover{ /* QUITAR COLOR Y OTRA COSA */
     text-decoration: none;
     color: inherit;
@@ -42,29 +50,29 @@ a, a:hover{ /* QUITAR COLOR Y OTRA COSA */
     font-size: larger;
 }
 
-#lista-sismos{
-    color:white;
-    text-justify: distribute;
-    list-style: none; 
-    padding: 1%;  
+.navbar-nav .ml-auto {
+    margin-right: auto !important;
 }
 
-.reloj{
+.container,
+.table{
     color: white;
-    margin-top: 10px;
-    font-size: large;
 }
 
-.boton{  
-    background-color: #FAB451;
-}
-
-.t_sismos{
-    text-align: center;
+.boton{
+    background-color: #F44A36;
     color: #fff;
-    font-size: xx-large;    
 }
 
-.escondido{
-    color: blue;
+.table{
+    background-color: #F44A36;
+}
+.regalo-info{
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+.contenido{
+    min-height: 100vh;
 }

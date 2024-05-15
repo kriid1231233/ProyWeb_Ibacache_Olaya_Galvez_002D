@@ -1,11 +1,17 @@
 $(document).ready(function(){
     $('#contactForm').submit(function(e){
+      var regexCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       // Validar nombre
-      var usuario = $('#usuario').val();
-      if(usuario.trim() == ''){
-        alert('Por favor ingresa tu nombre.');
-        e.preventDefault(); // Evitar que se envíe el formulario
-        return;
+      var correo = $('#correo').val();
+      if(correo.trim() == ''){
+          alert('Por favor ingresa tu correo electrónico.');
+          e.preventDefault(); 
+          return;
+      }
+      if (!regexCorreo.test(correo)) {
+          alert('Por favor ingresa un correo electrónico válido.');
+          e.preventDefault();
+          return;
       }
 
       var contraseña = $('#contraseña').val();
@@ -16,4 +22,3 @@ $(document).ready(function(){
       }
     });
   });
-  

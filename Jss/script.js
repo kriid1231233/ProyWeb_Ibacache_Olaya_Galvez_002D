@@ -10,7 +10,6 @@ async function mostrarSismos() {
     const sismos = await obtenerSismos();
     const listaSismos = document.getElementById('lista-sismos');
     listaSismos.innerHTML = '';
-    
     let contador=0
 
     for (const sismo of sismos) {

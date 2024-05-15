@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grill Master |  Contactanos</title>
+    <title>Grill Master |  Pokemon Info </title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="Css/StyleOthers.css">
+    <link rel="stylesheet" href="Css/StylePoke.css">
     <link rel="icon" href="img/LogoGrillMaster/logo.png">
 </head>
 <body>
@@ -41,20 +41,14 @@
     <hr class="separador">
     <hr class="separador3">
 
-    <div class="reloj">
-      <p id="hora">La hora en santiago es <span id="tiempo">00 : 00 : 00</span></p>
+    <div class="inpokemon">
+    <h1>Información de Pokémon</h1>
+    <label for="pokemonIdInput">ID del Pokémon:</label>
+    <input type="number" id="pokemonIdInput" min="1" max="807"> <!-- Máximo ID disponible en PokeAPI -->
+    <button onclick="buscarPokemon()">Buscar</button>
+    <div id="pokemon-info"></div>
     </div>
 
-    <div class="ListaSismos">
-      <p class="t_sismos"> LISTA DE SISMOS </p>
-        <ul id="lista-sismos">
-        </ul>
-        <button class= "boton" type="button" id="btn-sismos">Registro de sismos recientes en chile</button>
-    </div>
-
-    <div class="escondido">
-      <a href="Pokemons.html">shhhh</a>
-    </div>
     <footer>
         <p>Jean, Gabriel y Ian, &copy; Derechos de autor</p> <!-- COPYRIGHT -->
         <a href="Img/Socials/instagram.png"><!-- LOGO INSTAGRAM -->
@@ -64,7 +58,6 @@
             <img src="img/Socials/facebook.png" alt="facebook" width="20">
         </a>
     </footer>
-    <script src="jss/script.js"></script>
     <script src="jss/reloj.js"></script>
     <script src="Jss/poke.js"></script>
 </body>

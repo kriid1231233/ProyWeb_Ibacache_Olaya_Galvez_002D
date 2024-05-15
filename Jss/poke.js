@@ -1,8 +1,7 @@
-// Función para obtener información de un Pokémon específico
 function getPokemonInfo(pokemonId) {
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
       .then(response => {
-        if (!response.ok) {
+        if(!response.ok) {
           throw new Error('No se pudo obtener la información del Pokémon.');
         }
         return response.json();
@@ -26,11 +25,9 @@ function getPokemonInfo(pokemonId) {
   function buscarPokemon() {
     const pokemonIdInput = document.getElementById('pokemonIdInput');
     const pokemonId = pokemonIdInput.value;
-
     if (pokemonId === '' || isNaN(pokemonId) || pokemonId < 1 || pokemonId > 807) {
       alert('Ingresa un ID válido entre 1 y 807.');
       return;
     }
-
     getPokemonInfo(pokemonId);
   }
