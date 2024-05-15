@@ -66,4 +66,16 @@ a, a:hover{ /* QUITAR COLOR Y OTRA COSA */
     font-size: larger;
 }
 
-
+.regalo{
+    color: #fff;
+    text-align: center;
+    font-size: medium;
+}
+.link{
+    color:#FA6E51;
+    font-size: medium;
+}
+.link:hover{
+    font-size: medium;
+    color: #F44A36;
+}

@@ -1,8 +1,6 @@
 setInterval(function(){
     let html = document.getElementById("tiempo");
-
 	tiempo = new Date();
-
 	horas = tiempo.getHours();
 	minutos = tiempo.getMinutes();
 	segundos = tiempo.getSeconds();
@@ -15,5 +13,5 @@ setInterval(function(){
 	if(segundos<10)
 		segundos = "0"+segundos;
 
-	html.innerHTML = horas+" : "+minutos+" : "+segundos;
+	html.innerHTML = horas+" horas: "+minutos+"  minutos : "+segundos+" segundos";
 },1000);
