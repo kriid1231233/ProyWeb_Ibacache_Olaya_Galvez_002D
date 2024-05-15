@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grill Master | Registrate </title>
+    <link rel="icon" href="img/LogoGrillMaster/logo.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/StyleRegister.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-black text-white navbar-white">
+        <img src="img/LogoGrillMaster/logoentero.png" alt="Logo Empresa" width="80">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav.nav-item">
+              <a class="nav-link" href="Index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">QUIENES SOMOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PhotoGallery.html">GALERIA DE FOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">CONTACTANOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Others.html">OTROS</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">INICIAR SESION</a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+
+    <hr class="separador">
+    <hr class="separador3">
+
+    <div class="container">
+      <h2>REGISTRATE</h2>
+      <form action="Index.html" method="GET" id="contactForm">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre">
+        </div>
+        
+        <div class="form-group">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido">
+        </div>
+        
+        <div class="form-group">
+          <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+          <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+        </div>
+        
+        <div class="form-group">
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" name="correo">
+        </div>
+        
+        <div class="form-group">
+          <label for="genero">Género:</label>
+          <select id="genero" name="genero">
+            <option value="">Selecciona tu género</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="contraseña">Contraseña:</label>
+          <input type="password" id="contraseña" name="contraseña">
+        </div>
+        <label for="registrarse">Si ya tienes cuenta inicia sesion <a Class="aqui" href="Login.html">aquí</a> </label>
+        <div class="form-group">
+          <button type="submit">Enviar</button>
+        </div>
+        
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="recuerdame">
+          <label class="form-check-label" for="Iniciar sesion automaticamente">Iniciar sesion automaticamente</label>
+        </div>
+      </form>
+    </div>
+    <hr class="separador4">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <hr class="separador2">
+
+    <footer> <!-- COPY Y REDES-->
+        <p>Jean, Gabriel y Ian, &copy; Derechos de autor</p>
+        <a href="https://www.instagram.com/">
+            <img src="img/Socials/instagram.png" alt="Instagram" width="20">
+        </a>
+        <a href="https://www.facebook.com/?locale=es_LA">
+            <img src="img/Socials/facebook.png" alt="Instagram" width="20">
+        </a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="jss/validacion.js"></script>
+</body>
+</html>

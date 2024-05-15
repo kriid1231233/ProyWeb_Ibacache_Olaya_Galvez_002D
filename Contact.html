@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill Master |  Contactanos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/StyleContact.css">
+    <link rel="icon" href="img/LogoGrillMaster/logo.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-black text-white navbar-white">
+        <img src="img/LogoGrillMaster/logoentero.png" alt="Logo Empresa" width="80">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav.nav-item">
+                <a class="nav-link" href="Index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">QUIENES SOMOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PhotoGallery.html">GALERIA DE FOTOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Others.html">OTROS</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">INICIA SESION O REGISTRATE</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <hr class="separador">
+    <hr class="separador3">
+    <div class="container">
+        <h2>CONTACTANOS</h2>
+        <form action="Index.html" method="GET" id="contactForm">
+            <div>
+                <label for="nombre">Nombre Real:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+            </div>
+            <div>
+                <label for="correo">Correo Electrónico:</label><br>
+                <input type="email" id="correo" name="correo"><br>
+            </div>  
+            <div>
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto"><br>
+            </div>  
+            <div>
+                <label for="descripcion">Descripción del Asunto:</label><br>
+                <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea><br>
+            </div>
+            <div>
+                <label for="razonContacto">Razón de Contacto:</label><br>
+                <select id="razonContacto" name="razonContacto">
+                    <option value="">Selecciona una opción</option>
+                    <option value="cotizacion">Cotización</option>
+                    <option value="problemaServicio">Problema con Servicio</option>
+                </select>
+            </div>
+            <div>
+                <label for="enviarCopia" >  <input type="checkbox" id="enviarCopia" name="enviarCopia" value="si">Enviar copia a mi correo</label>
+            </div>
+            <div>
+                <label for="archivoAdjunto">Archivo Adjunto:</label><br>
+                <input type="file" id="archivoAdjunto" name="archivoAdjunto" style="display: none;">
+                <button type="button" id="subirArchivo">Subir Archivo</button>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+      </div>
+    <footer>
+        <p>Jean, Gabriel y Ian, &copy; Derechos de autor</p> <!-- COPYRIGHT -->
+        <a href="Img/Socials/instagram.png"><!-- LOGO INSTAGRAM -->
+            <img src="img/Socials/instagram.png" alt="Instagram" width="20">
+        </a>
+        <a href="Img/Socials/facebook.png"><!-- LOGO FACEBOOK -->
+            <img src="img/Socials/facebook.png" alt="facebook" width="20">
+        </a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="Jss/validacionContacto.js"></script>
+    <script src="Jss/subAch.js"></script>
+</body>
+</html>
